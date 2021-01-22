@@ -1,0 +1,87 @@
+<html>
+<head>
+<title>Student Registration Form</title>
+</head>
+<body>
+<center>
+<h3>STUDENT REGISTRATION FORM</h3> 
+<table align="center" cellpadding = "10">
+<tr>
+<td>FIRST NAME</td>
+<td><input type="text" name="First_Name" maxlength="30"/>
+</td>
+</tr>
+<tr>
+<td>LAST NAME</td>
+<td><input type="text" name="Last_Name" maxlength="30"/>
+</td>
+</tr>
+<tr>
+<td>GENDER</td>
+<td>
+Male <input type="radio" name="Gender" value="Male" />
+Female <input type="radio" name="Gender" value="Female" />
+Others <input type="radio" name="Gender" value="Others" />
+</td>
+</tr>
+<tr>
+<td>DATE OF BIRTH</td>
+<td><input type="date" name="dob" maxlength="10"/></td>
+</tr>
+<tr>
+<td>ADDRESS </td>
+<td><textarea name="Address" rows="4" cols="30"></textarea></td>
+</tr>
+<tr>
+<td>MOBILE NUMBER</td>
+<td>
+<input type="text" name="Mobile_Number" maxlength="10" />
+</td>
+</tr>
+<tr>
+<td>GUARDIAN</td>
+<td><input type="text" name="guardian" maxlength="30"/>
+</td>
+</tr>
+<tr>
+<td>EXTRA CURRICULAR ACTIVITIES</td>
+<td><input type="text" name="extra" maxlength="30"/>
+</td>
+</tr>
+<tr>
+<td>HOBBIES 
+ <td>
+Drawing
+<input type="checkbox" name="Hobby[]" value="Drawing" />
+Singing
+<input type="checkbox" name="Hobby[]" value="Singing" />
+Dancing
+<input type="checkbox" name="Hobby[]" value="Dancing" />
+Cooking
+<input type="checkbox" name="Hobby[]" value="Cooking" />
+<br />
+Others
+<input type="checkbox" name="Hobby_Other" value="Other">
+<input type="text" name="Other_Hobby" maxlength="30" />
+</td>
+</tr>
+<tr>
+<td>COURSES<br />
+<td>
+BCA
+<input type="radio" name="Course_BCA" value="BCA">
+B.Com
+<input type="radio" name="Course_BCom" value="B.Com">
+B.Sc
+<input type="radio" name="Course_BSc" value="B.Sc">
+B.A
+<input type="radio" name="Course_BA" value="B.A">
+</td>
+</tr>
+</table>
+<input type="submit"name="submit"value="submit">
+<input type="reset" name="reset" value="reset">
+ </form>
+</center>
+ </body>
+</html>
